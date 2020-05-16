@@ -11,10 +11,10 @@
 
     <header id="header">
         <nav id="nav-bar">
-            <a href="#stats"><button class="nav-link">Stats</button></a>
-            <a href="#highlights"><button class="nav-link">Highlights</button></a>
-            <a href="#moments"><button class="nav-link">Memorable Moments</button></a>
-            <a href="#subscribe"><button class="nav-link">Subscribe</button></a>
+            <a href="#stats" class="nav-link" value="Stats"><button>Stats</button></a>
+            <a href="#highlights" class="nav-link" value="Highlights"><button>Highlights</button></a>
+            <a href="#moments" class="nav-link" value="Memorable Moments"><button>Memorable Moments</button></a>
+            <a href="#subscribe" class="nav-link" value="Subscribe"><button>Subscribe</button></a>
         </nav><br>
         <div>
         <img id="header-img" class="header-img floatleft" src="https://cdnph.upi.com/pv/upi/9b25de08d313589616899b031665b8e3/DET98051002.jpg">
@@ -29,8 +29,8 @@
     </div>
     <div id="highlights">
         <h2>Highlights</h2>
-        <label for="90s"><h3>FROM THE 90'S!</h3></label><br>
-        <iframe id="90s" width="560" height="315" src="https://www.youtube.com/embed/78Vq0fA0W1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <label for="video"><h3>FROM THE 90'S!</h3></label><br>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/78Vq0fA0W1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div id="moments">
         <h2>Memorable Moments</h2>
@@ -40,7 +40,7 @@
     <form action="https://www.freecodecamp.com/email-submit" id="form">
         <h2 id="subscribe">Subscribe</h2><br>
         <label for="email">Enter E-Mail Address here:</label><br>
-        <input type="email" id="email" placeholder="Enter Your Email Address"><br>
+        <input type="email" id="email" placeholder="Enter Your Email Address" name="email"><br>
         <input type="submit" id="submit" value="Subscribe" >
     </form>
     </div>

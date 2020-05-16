@@ -7,7 +7,7 @@
 
 #box1 {
     color: red;
-    display: flexbox;
+    display: flex;
     height: 500px;
 }
 
